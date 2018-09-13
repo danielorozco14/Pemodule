@@ -1,0 +1,44 @@
+body{
+    background-color: #4e489a;
+    
+}
+.container{
+    display: flex;
+    position: relative;
+}
+.imagen1{
+    position: relative;
+    left: 180px;
+    top: 100px;
+  
+}
+img{
+    width: 999px;
+    height: 540px;
+    max-width: 100%;
+    max-height: auto;
+    min-width: 35%;
+}
+
+#home{
+    position: absolute;
+    top: 150px;
+    right: 400px;
+}
+#generic{
+    position: absolute;
+    top: 150px;
+    right: 300px;
+}
+a{
+    color: white;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+/*
+<nav class="menu">
+<li class="op">Home</li>
+<li class="op">Generic</li>
+<li class="op">Elements</li>
+</nav>*/
