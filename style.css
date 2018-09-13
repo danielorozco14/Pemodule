@@ -12,14 +12,23 @@ body{
     top: 100px;
   
 }
-img{
+#imagen1{
     width: 999px;
     height: 540px;
     max-width: 100%;
     max-height: auto;
     min-width: 35%;
 }
+.imagen2{
+    position: absolute;
+    top: 143px;
+    left: 215px;
+}
+#imagen2{
+    max-width: 100%;
+    max-height: auto;
 
+}
 #home{
     position: absolute;
     top: 150px;
