@@ -37,11 +37,21 @@ body{
 #generic{
     position: absolute;
     top: 150px;
+    right: 200px;
+}
+#elements{
+    position: absolute;
+    top: 150px;
     right: 300px;
 }
 a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
     color: white;
-    position: absolute;
+    position: relative;
     top: 150px;
     right: 200px;
 }
