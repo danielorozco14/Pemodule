@@ -1,6 +1,12 @@
 body{
     background-color: #4e489a;
 }
+div{
+    display:block;
+}
+h1,h2,h4,p{
+   font-family: "Poppins", sans-serif;
+}
 .container{
     display: flex;
     position: relative;
@@ -24,6 +30,7 @@ body{
     width: 1100px;
     height: 540px;
     max-width: 100%;
+    padding-bottom: 82px;
     max-height: auto;
     min-width: 35%;
 }
@@ -89,6 +96,7 @@ body{
     text-align: center;
     text-decoration: none;
 }
+
 a{
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
@@ -100,6 +108,28 @@ a{
     top: 150px;
     right: 200px;
 }
+.areaDos{
+    width: 1099px;
+    position: relative;
+    left: 136px;
+    background-color: #fff;
+}
+
+.filas{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.columnas{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    
+    margin-left: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
 /*
 <nav class="menu">
 <li class="op">Home</li>
