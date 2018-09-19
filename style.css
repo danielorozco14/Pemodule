@@ -63,7 +63,7 @@ h1,h2,h4,p,section{
 .middle{
     position: absolute;
     font-family: "Poppins", sans-serif;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -78,7 +78,7 @@ h1,h2,h4,p,section{
 }
 .middle h1{
     margin-top: 45px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-size: 120px;
     font-weight: 100;
     line-height: 1.25em;
@@ -150,19 +150,15 @@ a{
     left: 100px;
 }
 
+
 .areaTres{
-    width: 1100px;
-    height: 540px;
-    background-image: url('img/parallux.jpg');
-    background-size: 100% 100%;
     position: relative  ;
     left: 136px;
+    background-image: url('img/parallux.jpg');
+    height: 503px;
+    width: 1100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
 }
-
-
-/*
-<nav class="menu">
-<li class="op">Home</li>
-<li class="op">Generic</li>
-<li class="op">Elements</li>
-</nav>*/
