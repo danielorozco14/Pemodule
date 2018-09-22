@@ -1,8 +1,17 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #4e489a;
+    padding: 2%;
+    position: relative;
+    margin: 3.8%;
 }
-div{
-    display:block;
+.main-container {
+    position: relative;
+    left: 2%;
+    margin:auto 0 ;
+    padding: inherit;
 }
 h1,h2,h4,p,section{
    font-family: "Poppins", sans-serif;
@@ -13,10 +22,12 @@ h1,h2,h4,p,section{
     position: relative;
 }
 .imagen1{
-    position: relative;
-    left: 135px;
-    top: 88px;
-
+    width: 1145px;
+    height: 540px;
+}
+.imagen1 img{
+    width:100%;
+    height: 100%;
 }
 .layer {
     background-image:-webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
@@ -26,75 +37,83 @@ h1,h2,h4,p,section{
     left: 0;
     width: 100%;
     height: 100%;
-    
 }
-#imagen1{
-    width: 1100px;
-    height: 540px;
-    max-width: 100%;
-    padding-bottom: 82px;
-    max-height: auto;
-    min-width: 35%;
-}
+
 .imagen2{
     position: absolute;
-    top: 102px;
-    left: 145px;
+    top: 2%;
+    left: 2%;
 }
 #imagen2{
     max-width: 100%;
     max-height: auto;
-
 }
 #home{
     position: absolute;
-    top: 105px;
-    right: 400px;
+    top: 2%;
+    right: 40%;
 }
 #generic{
     position: absolute;
-    top: 105px;
-    right: 300px;
+    top: 2%;
+    right: 30%;
 }
 #elements{
     position: absolute;
-    top: 105px;
-    right: 200px;
-
+    top: 2%;
+    right: 20%;
 }
 .middle{
     position: absolute;
     font-family: "Poppins", sans-serif;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (min-width: 601px) {
+  #pemodule {
+    font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #pemodule {
+    font-size: 60px;
+  }
+}
 .middle h4{
-    position: absolute;
-    left: 200px;
+    position: relative;
+    left: 30%;
     text-transform: uppercase;
     color: #fff;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 3px;
 }
+
+
 .middle h1{
-    margin-top: 45px;
+
+    margin-top: 2%;
     margin-bottom: 10px;
     font-size: 120px;
     font-weight: 100;
     line-height: 1.25em;
     color: #fff;
 }
+
+
 button{
     position: absolute;
+    left: 33%;
     border-color: white;
     background-color: transparent;
     font-family: "Poppins", sans-serif;
-    left: 230px;
+
     border-radius: 50px;
     color: #fff;
-    padding: 15px 32px;
+    padding: 10px 45px;
     text-align: center;
     text-decoration: none;
 }
@@ -116,27 +135,25 @@ a{
     top: 150px;
     right: 200px;
 }
+/** Inicio de parte 2**/
 .areaDos{
-    width: 1099px;
+    width: 100%;
+    height: 100%;
     position: relative;
-    left: 136px;
     background-color: #fff;
 }
 
-.filas{
-    display: flex;
-    margin-right: -15px;
-    margin-left: -15px;
-}
+
 .columnas{
     display: grid;
     grid-template-columns: 35% 65% ;
+    grid-template-rows: 50% 50%;
     grid-gap: 10px;
-    padding: 10px;
-    margin-left: 60px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
+    padding: 5%;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
 }
 .columnas h2{
     font-size: 36px;
@@ -151,11 +168,11 @@ a{
     color:#777777;
 }
 .columnas button{
-    left:55px;
+    left:5%;
 }
 #slider{
     position: relative;
-    left: 100px;
+    left: 3%;
 }
 
 
@@ -186,11 +203,11 @@ a{
 #col{
     grid-template-columns: 1fr;
     padding-left: 10px;
-    
+
 }
 .parallux p {
     color: #fff;
-    
+
 }
 .parallux button{
     background-color: transparent;
